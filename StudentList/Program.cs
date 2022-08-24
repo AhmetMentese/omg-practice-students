@@ -24,6 +24,7 @@ namespace StudentList
 
                 Console.WriteLine("1 - Add students");
                 Console.WriteLine("2 - Information about students");
+                Console.WriteLine("Ben");         
                 int SwitchCase = int.Parse(Console.ReadLine());
 
                 if (SwitchCase == 1 || SwitchCase == 2) {
